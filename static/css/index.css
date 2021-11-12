@@ -1,0 +1,84 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.c1{
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px 0px 10px 0px;
+	background-color: #364f8f;
+	width: 100%;
+	height: auto;
+}
+.c2{
+	padding: 100px 0px;
+	background-color: #e5e5e5;
+}
+.c3{
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px 0px;
+	background-color: #ffffff;
+	width: auto;
+	height: auto;
+}
+.c4{
+  padding: 25px 100px;
+  width: 600px;
+}
+#t1{
+	padding-left: 50px;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: left;
+	font-size: 50px;
+	color: white;
+}
+#t2{
+	font-family: Helvetica;
+	font-weight: normal;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+#t3{
+	text-decoration: none;
+	color: #364f8f;
+}
+input[type=email] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=button] {
+  width: 100%;
+  background-color: #364f8f;
+  color: white;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media only screen and (min-width : 0px) and (max-width : 925px) {
+	#t1{
+	padding-left: 0px;
+	text-align: center;
+	}
+	.c4{
+		padding: 25px 10px;
+		width: 95%;
+	}
+}
